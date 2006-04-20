@@ -1,4 +1,5 @@
 Summary:	Qxmp - light media player (based on MPlayer) for Linux workstations
+Summary(pl):	Qxmp - lekki odtwarzacz mediów (oparty na MPlayerze) dla Linuksa
 Name:		qxmp
 Version:	1.0
 Release:	0.1
@@ -20,6 +21,14 @@ workstations. With Qxmp you can easily play a wide variety of video
 and audio files and streams using a simple and clean interface. Qxmp
 is not a complex media manager - it provides a simple and compact
 frontend to MPlayer, allowing you to just enjoy your media.
+
+%description -l pl
+Qxmp to lekki odtwarzacz mediów (oparty na MPlayerze) dla Linuksa i
+Uniksa. Przy pomocy Qxmp mo¿na ³atwo odtwarzaæ wiele ró¿nych plików z
+filmami i d¼wiêkiem oraz strumienie przy u¿yciu prostego i
+przejrzystego interfejsu. Qxmp nie jest skomplikowanym zarz±dc± mediów
+- udostêpnia prosty i zwarty frontend do MPlayera, pozwalaj±cy po
+prostu cieszyæ siê multimediami.
 
 %prep
 %setup -q
