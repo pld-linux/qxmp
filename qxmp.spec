@@ -10,8 +10,8 @@ Source0:	http://www.xm1math.net/qxmp/%{name}-%{version}.tar.bz2
 URL:		http://www.xm1math.net/qxmp/
 BuildRequires:	QtGui-devel >= 4.1.1
 BuildRequires:	QtXml-devel
-BuildRequires:	qt4-build
-BuildRequires:	qt4-qmake
+BuildRequires:	qt4-build >= 4.3.3-3
+BuildRequires:	qt4-qmake >= 4.3.3-3
 Requires:	mplayer
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -34,7 +34,7 @@ prostu cieszyć się multimediami.
 %setup -q
 
 %build
-qt4-qmake \
+qmake-qt4 \
 	PREFIX=%{_prefix}
 %{__make}
 
